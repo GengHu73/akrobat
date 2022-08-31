@@ -1,0 +1,8 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,700&family=Lobster&family=Pattaya&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+font-family: 'Cormorant Infant', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Pattaya', sans-serif;
+font-family: 'Rubik Mono One', sans-serif;

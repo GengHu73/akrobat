@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Акробатика</title>
+    <link rel="icon" type="image/x-icon" href="cup_prize1.ico" class="favi" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,700&family=Lobster&family=Pattaya&family=Rubik+Mono+One&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <nav class="header__navigation">
+          <a class="header__logo" href="index.html">
+            <img
+              class="header__logo-ikon"
+              src="./images/logo2.png"
+              alt="logo"
+              width="100"
+              height="100"
+            />
+          </a>
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="#aboutus">о нас</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="#trainer">наши тренера</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="#timetable">расписание</a>
+            </li>
+
+            
+            <li class="nav-list__item">
+              <button type="button" class="menu-btn" data-menu-open>
+                контакты
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="mobile-menu__container">
+          <button type="button" class="mobile-menu__close-btn" data-menu-close>
+            <svg class="mobile-menu__close-ikon" width="40" height="40">
+              <use href="./images/svg/sprite.svg#icon-close-menu"></use>
+            </svg>
+          </button>
+
+          <ul class="mobile-menu__contacts-list">
+            <li class="contact-list__item">
+              <a class="contaсt-list__link_phone" href="tel:+111111111111">
+                +111111111111</a
+              >
+            </li>
+            <li class="contact-list__item">
+              <a
+                class="contaсt-list__link_mail"
+                href="mailto:akrobatik@server.com"
+                >akrobatik@server.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__blank container"></div>
+        <div class="hero__container container">
+          <h1 class="hero__slogan">Авангард</h1>
+          <h2 class="hero__slogan-txt">спортивная школа акробатики</h2>
+        </div>
+      </section>
+      <section id="aboutus" class="aboutus section">
+        <div class="container aboutus__container">
+          <h2 class="trainer__title">о нас</h2>
+          <p class="aboutus__txt">
+            Такой сложный вид спорта, как прыжки на акробатической дорожке, в
+            Бердянске развивается достаточно долгое время, а спортсмены нашего
+            города уже достигли в нем определенных высот.
+          </p>
+          <p class="aboutus__txt">
+            В нашем отделении проходят тренировки по прыжкам на акробатической
+            дорожке — спортивной дисциплине, которая является составляющей
+            такого вида спорта, как прыжки на батуте. А прыжки на батуте — это
+            олимпийский вид спорта, поэтому можно сказать, что и прыжки на
+            акробатической дорожке — достаточно популярная и, главное,
+            перспективная дисциплина.
+          </p>
+          <p class="aboutus__txt">
+            Детей можно приводить с 5 лет, мы берем всех, а потом проводим
+            тесты. По их результатам ребята распределяются по группам (начальной
+            подготовки, базовой подготовки, специализированной подготовки). Если
+            дети не могут работать на результат, то они ходят просто в группу
+            общей физподготовки и занимаются для себя. Может, спортсменом
+            ребенок и не станет, зато здоровье укрепит и на улице болтаться не
+            будет.
+          </p>
+          <p>
+            Акробатика это не просто вид спорта, это мощный инструмент
+            позволяющий сильно прокачать свои возможности в других областях
+            деятельности. Танцоры, спортсмены боевых искусств, паркуристы и даже
+            гимнасты, занявшись дополнительно акробатикой, выводят на невиданный
+            уровень координацию движения и владения собственным телом, что в
+            разы расширяет их возможности.
+          </p>
+        </div>
+      </section>
+      <!-- <section class="gallery-previews section">
+        <div class="container">
+          <h2 class="gallery-previews__title"></h2>
+          <ul class="gallery-previews__list">
+            <li class="gallery-previews__item">
+              <picture>
+                <source srcset="1x, 2x" />
+                <img src="." alt="" width="370" height="294" />
+              </picture>
+              <div class="gallery-previews__label">
+                <span class="gallery-previews__label-text"> </span>
+              </div>
+            </li>
+            <li class="gallery-previews__item">
+              <picture>
+                <source srcset="1x, 2x" />
+                <img src="" alt="" width="370" height="294" />
+              </picture>
+              <div class="gallery-previews__label">
+                <span class="gallery-previews__label-text"> </span>
+              </div>
+            </li>
+            <li class="gallery-previews__item">
+              <picture>
+                <source srcset="1x, 2x" />
+                <img src="" alt="" width="370" height="294" />
+              </picture>
+              <div class="gallery-previews__label">
+                <span class="gallery-previews__label-text"> </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section> -->
+      <section id="trainer" class="trainer__section section">
+        <div class="trainer__container container">
+          <h2 class="trainer__title">наши тренера</h2>
+          <div class="trainer__main">
+            <picture class="image-title">
+              <source srcset="./1.jpg 1x, ./1@2x.jpg 2x" />
+              <img
+                class="trainer__image"
+                src="./1.jpg"
+                alt="главный тренер"
+                width="450"
+                height="601"
+              />
+            </picture>
+            <picture class="image-hover">
+              <source srcset="./2.jpg 1x, ./2@2x.jpg 2x" />
+              <img
+                class="trainer__image"
+                src="./2.jpg"
+                alt="главный тренер"
+                width="450"
+                height="601"
+              />
+            </picture>
+            <div class="trainer__card-title">
+              <h3 class="trainer__member-name">Тренеров Тренер Тренерович</h3>
+              <p class="trainer__member-metier">Первый юношеский разряд</p>
+              <ul class="social-list trainer__social-list">
+                <li class="social-list__item">
+                  <a class="social-list__link" href="">
+                    <svg class="social-list__icon" width="20" height="20">
+                      <use href="./images/svg/sprite.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__link" href="">
+                    <svg class="social-list__icon" width="20" height="20">
+                      <use href="./images/svg/sprite.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__link" href="">
+                    <svg class="social-list__icon" width="20" height="20">
+                      <use href="./images/svg/sprite.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__link" href="">
+                    <svg class="social-list__icon" width="20" height="20">
+                      <use href="./images/svg/sprite.svg#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul class="trainer__card-list">
+            <li class="trainer__card-item">
+              <picture class="image-title">
+                <source srcset="./1.jpg 1x, ./1@2x.jpg 2x" />
+                <img
+                  class="trainer__image"
+                  src="./1.jpg"
+                  alt="тренер"
+                  width="450"
+                  height="601"
+                />
+              </picture>
+              <picture class="image-hover">
+                <source srcset="./2.jpg 1x, ./2@2x.jpg 2x" />
+                <img
+                  class="trainer__image"
+                  src="./2.jpg"
+                  alt="тренер"
+                  width="450"
+                  height="601"
+                />
+              </picture>
+              <div class="trainer__card-title">
+                <h3 class="trainer__member-name">Вася</h3>
+                <p class="trainer__member-metier">тренер</p>
+                <ul class="social-list trainer__social-list">
+                  <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/svg/sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/svg/sprite.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/svg/sprite.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/svg/sprite.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="trainer__card-item">
+              <picture class="image-title">
+                <source srcset="./1.jpg 1x, ./1@2x.jpg 2x" />
+                <img
+                  class="trainer__image"
+                  src="./1.jpg"
+                  alt="главный тренер"
+                  width="450"
+                  height="601"
+                />
+              </picture>
+              <picture class="image-hover">
+                <source srcset="./2.jpg 1x, ./2@2x.jpg 2x" />
+                <img
+                  class="trainer__image"
+                  src="./2.jpg"
+                  alt="главный тренер"
+                  width="450"
+                  height="601"
+                />
+              </picture>
+              <div class="trainer__card-title">
+                <h3 class="trainer__member-name">Петя</h3>
+                <p class="trainer__member-metier">тренер</p>
+                <ul class="social-list trainer__social-list">
+                  <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/svg/sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/svg/sprite.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/svg/sprite.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/svg/sprite.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="trainer__card-item">
+              <picture class="image-title">
+                <source srcset="./1.jpg 1x, ./1@2x.jpg 2x" />
+                <img
+                  class="trainer__image"
+                  src="./1.jpg"
+                  alt="главный тренер"
+                  width="450"
+                  height="601"
+                />
+              </picture>
+              <picture class="image-hover">
+                <source srcset="./2.jpg 1x, ./2@2x.jpg 2x" />
+                <img
+                  class="trainer__image"
+                  src="./2.jpg"
+                  alt="главный тренер"
+                  width="450"
+                  height="601" 
+                />
+              </picture>
+              <div class="trainer__card-title">
+                <h3 class="trainer__member-name">Федя</h3>
+                <p class="trainer__member-metier">тренер</p>
+                <ul class="social-list trainer__social-list">
+                  <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/svg/sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/svg/sprite.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/svg/sprite.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                      <svg class="social-list__icon" width="20" height="20">
+                        <use href="./images/svg/sprite.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="timetable" class="timetable section">
+        <div class="timetable__container container">
+          <h2 class="timetable__title title">расписание</h2>
+          <p class="timetable__item">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
+            aspernatur pariatur debitis facilis quasi laboriosam modi qui neque
+            nesciunt, in quam assumenda voluptates vero sint eveniet, incidunt
+            hic nobis, rem ducimus delectus possimus reprehenderit. In nam quam
+            delectus iure suscipit ea natus aspernatur amet. Error nihil
+            possimus tempore iusto pariatur. Iure facilis officiis soluta
+            maiores magnam enim, quos aliquid autem? Nobis, similique placeat
+            quaerat blanditiis sunt veniam repellat incidunt fugiat dolores quo
+            quos maxime itaque vero iste fuga sit perferendis nulla ad eaque
+            quae! Officia quia velit esse vero consectetur odit culpa veniam
+            doloremque pariatur quas, quo modi. Aliquam, neque!
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__nav">
+          <div class="footer__navigation">
+            <a
+              class="address__contact-link"
+              href="https://goo.gl/maps/S7mtKb2HvPyn7NvB9"
+              ><p class="address__map">Бердянск дк.Софит</p></a
+            >
+          </div>
+          <div class="footer__social">
+            <ul class="social-list">
+              <li class="social-list__item footer__social-item">
+                <a class="social-list__link" href="">
+                  <svg class="social-list__icon" width="20" height="20">
+                    <use href="./images/svg/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item footer__social-item">
+                <a class="social-list__link" href="">
+                  <svg class="social-list__icon" width="20" height="20">
+                    <use href="./images/svg/sprite.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item footer__social-item">
+                <a class="social-list__link" href="">
+                  <svg class="social-list__icon" width="20" height="20">
+                    <use href="./images/svg/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item footer__social-item">
+                <a class="social-list__link" href="">
+                  <svg class="social-list__icon" width="20" height="20">
+                    <use href="./images/svg/sprite.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__blank"></div>
+    </footer>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>

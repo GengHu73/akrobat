@@ -1,0 +1,32 @@
+.gallery-previews {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    padding-top: 0;
+  }
+
+  &__list {
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__item {
+    position: relative;
+  }
+  &__label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 70px;
+    background-color: var(--label-color);
+    position: absolute;
+    bottom: 0;
+  }
+  &__label-text {
+    @include font(700, 14px, 1.14, 0.03em);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--second-color);
+  }
+}

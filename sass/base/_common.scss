@@ -1,0 +1,50 @@
+body {
+  margin: auto;
+  font-family: var(--primary-font);
+  box-sizing: border-box;
+  background-image: url(../images/fon.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  // height: auto;
+}
+ul {
+  list-style: none;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  @include font(700, 28px, 1.18, 0.03em);
+  text-align: center;
+  color: var(--fourth-text-color);
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    @include font(700, 24px, 1.17, 0.03em);
+    margin-bottom: 50px;
+  }
+  @media screen and (min-width: 1280px) {
+    @include font(700, 36px, 1.17, 0.03em);
+    margin-bottom: 50px;
+  }
+}

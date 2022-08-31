@@ -1,0 +1,81 @@
+.footer {
+  &__container {
+    padding: 30px 30px;
+
+    margin: auto;
+    background-color: var(--futer-color);
+    @media screen and (min-width: 1024px) {
+      width: 1024px;
+    }
+  }
+  &__nav {
+    width: 208px;
+    @media screen and (max-width: 1023px) {
+    }
+  }
+  &__navigation {
+    display: flex;
+
+    margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+    }
+    @media screen and (min-width: 1024px) {
+    }
+    @media screen and (max-width: 1023px) {
+      margin-bottom: 60px;
+    }
+    &::before {
+      content: "";
+      display: block;
+      width: 16px;
+      height: 16px;
+      background-image: url(../images/svg/icon-nav.svg);
+      background-size: cover;
+
+      margin-right: 5px;
+    }
+    &:hover,
+    &:focus {
+      .address__map {
+        color: var(--primary-color);
+      }
+    }
+  }
+
+  &__social {
+    @media screen and (min-width: 768px) {
+    }
+    @media screen and (min-width: 1024px) {
+      margin-right: 93px;
+    }
+    @media screen and (max-width: 1023px) {
+      width: 232px;
+    }
+  }
+
+  &__social-item {
+    fill: currentColor;
+    a {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--primary-text-color);
+    }
+  }
+  &__blank {
+    height: 350px;
+    background-color: transparent;
+  }
+}
+
+.address {
+  &__contacts-list {
+  }
+
+  &__contact-link {
+    @include font(700, 14px, 1.14, 0.03em);
+
+    color: var(--second-text-color);
+  }
+  &__map {
+    color: var(--primary-text-color);
+  }
+}

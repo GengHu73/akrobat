@@ -1,0 +1,12 @@
+.logo {
+  display: flex;
+  color: var(--fifth-text-color);
+  font-family: var(--logo-font);
+  @media screen and (min-width: 1200px) {
+    @include font(400, 54px, 1.3, -0.1em);
+  }
+}
+
+.logo-studio-black {
+  color: var(--primary-text-color);
+}
