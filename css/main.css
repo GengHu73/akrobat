@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --primary-font: "Roboto", sans-serif;
   --logo-font: "Rubik Mono One", sans-serif;
@@ -430,30 +429,6 @@ h2 {
     line-height: 1.14;
     letter-spacing: 0.02em;
   }
-}
-
-.contaсt-list__item {
-  margin-bottom: 32px;
-}
-.contaсt-list__link_phone {
-  font-weight: 500;
-  font-size: 34px;
-  line-height: 1.18;
-  letter-spacing: 0.02em;
-  color: var(--third-text-color);
-}
-.contaсt-list__link_phone:hover, .contaсt-list__link_phone:focus {
-  color: var(--primary-color);
-}
-.contaсt-list__link_mail {
-  font-weight: 500;
-  font-size: 34px;
-  line-height: 1.18;
-  letter-spacing: 0.02em;
-  color: var(--third-text-color);
-}
-.contaсt-list__link_mail:hover, .contaсt-list__link_mail:focus {
-  color: var(--primary-color);
 }
 
 .mobile-menu {
