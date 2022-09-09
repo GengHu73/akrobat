@@ -7,7 +7,10 @@
   &__main {
     margin: auto;
     margin-bottom: 30px;
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+      width: 310px;
+    }
+    @media screen and (min-width: 124px) {
       width: 354px;
     }
     &:hover {
@@ -19,12 +22,6 @@
       }
     }
   }
-  &__main .trainer__image {
-    @media screen and (min-width: 1024px) {
-      width: 354px;
-      height: 472px;
-    }
-  }
   &__card-list {
     display: flex;
     flex-wrap: wrap;
@@ -32,13 +29,12 @@
     margin-top: -30px;
   }
   &__card-item {
-    flex-basis: calc((100% - 30px) / 1);
     margin-left: 30px;
     margin-top: 30px;
     @media screen and (min-width: 768px) {
       flex-basis: calc((100% - 60px) / 2);
     }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1280px) {
       flex-basis: calc((100% - 90px) / 3);
     }
     &:hover {
@@ -52,12 +48,13 @@
   }
   &__image {
     @media screen and (min-width: 768px) {
-      width: 354px;
-      height: 374px;
+      width: 310px;
+      height: 415px;
     }
+    
     @media screen and (min-width: 1024px) {
       width: 354px;
-      height: 411px;
+      height: 472px;
     }
   }
   &__card-title {

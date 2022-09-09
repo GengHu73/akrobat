@@ -8,11 +8,11 @@
     background-position: 50% 50%;
     padding-top: 70px;
     padding-bottom: 100px;
-    background-image: url(../images/zal.jpg);
+    background-image: url(../images/mobile/zal.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../images/zal@2x.jpg);
+      background-image: url(../images/mobile/zal@2x.jpg);
     }
     @media screen and (min-width: 768px) {
       padding-top: 70px;
