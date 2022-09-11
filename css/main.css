@@ -79,11 +79,7 @@ ol {
 
 img {
   display: block;
-}
-@media screen and (min-width: 767px) {
-  img {
-    max-width: 100%;
-  }
+  max-width: 100%;
 }
 
 ul {
@@ -667,12 +663,12 @@ h2 {
   margin: auto;
   margin-bottom: 30px;
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .trainer__main {
-    width: 310px;
+    width: 354px;
   }
 }
-@media screen and (min-width: 124px) {
+@media screen and (min-width: 1280px) {
   .trainer__main {
     width: 354px;
   }
@@ -709,15 +705,18 @@ h2 {
 .trainer__card-item:hover .image-title {
   display: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .trainer__image {
-    width: 310px;
+    height: 472px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .trainer__image {
     height: 415px;
   }
 }
-@media screen and (min-width: 1024px) {
-  .trainer__image {
-    width: 354px;
+@media screen and (min-width: 768px) {
+  .trainer__image_main {
     height: 472px;
   }
 }
@@ -754,8 +753,43 @@ h2 {
 }
 
 .timetable {
-  background-color: #ffffff;
+  background-color: #faf6f6;
 }
+.timetable__title {
+  margin-bottom: 14px;
+}
+.timetable__item {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  text-align: left;
+  color: #fff;
+  background-color: #00a8e1;
+  height: 34px;
+}
+
+td {
+  width: 130px;
+}
+
+td:first-child {
+  width: 88px;
+}
+
+td:last-child {
+  width: 148px;
+}
+
+tr:nth-child(odd) {
+  background-color: #e3e2e2;
+}
+
 .footer__container {
   padding: 30px 30px;
   width: 480px;
@@ -767,7 +801,7 @@ h2 {
     width: 768px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .footer__container {
     width: 1024px;
   }
@@ -778,11 +812,6 @@ h2 {
 .footer__navigation {
   display: flex;
   margin-bottom: 30px;
-}
-@media screen and (max-width: 1023px) {
-  .footer__navigation {
-    margin-bottom: 60px;
-  }
 }
 .footer__navigation::before {
   content: "";

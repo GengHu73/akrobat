@@ -1,11 +1,37 @@
 .timetable {
-  background-color: #ffffff;
+  background-color: #faf6f6;
   &__container {
   }
 
   &__title {
+    margin-bottom: 14px;
   }
 
   &__item {
+    text-align: center;
+    margin-bottom: 14px;
   }
+}
+table {
+  margin: auto;
+}
+th {
+  text-align: left;
+  color: #fff;
+  background-color: #00a8e1;
+  height: 34px;
+}
+td {
+  width: 130px;
+}
+
+td:first-child {
+  width: 88px;
+}
+
+td:last-child {
+  width: 148px;
+}
+tr:nth-child(odd) {
+  background-color: #e3e2e2;
 }

@@ -5,7 +5,6 @@ body {
   background-image: url(../images/fon.jpg);
   background-size: cover;
   background-attachment: fixed;
- 
 }
 h1,
 h2,
@@ -25,9 +24,7 @@ ol {
 
 img {
   display: block;
-  @media screen and (min-width: 767px) {
-    max-width: 100%;
-  }
+  max-width: 100%;
 }
 ul {
   list-style: none;

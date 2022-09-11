@@ -1,16 +1,16 @@
 .trainer {
-  &__container {
-  }
+  // &__container {
+  // }
   &__section {
     background-color: var(--team-color);
   }
   &__main {
     margin: auto;
     margin-bottom: 30px;
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
-      width: 310px;
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      width: 354px;
     }
-    @media screen and (min-width: 124px) {
+    @media screen and (min-width: 1280px) {
       width: 354px;
     }
     &:hover {
@@ -47,15 +47,19 @@
     }
   }
   &__image {
-    @media screen and (min-width: 768px) {
-      width: 310px;
-      height: 415px;
-    }
-    
-    @media screen and (min-width: 1024px) {
-      width: 354px;
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      // width: 354px;
       height: 472px;
     }
+    @media screen and (min-width: 1280px) {
+      // width: 312px;
+      height: 415px;
+    }
+    &_main {
+      @media screen and (min-width: 768px) {
+      // width: 354px;
+      height: 472px;
+    }}
   }
   &__card-title {
     padding-top: 30px;
