@@ -111,17 +111,16 @@
     display: block;
     width: 100%;
     height: 100%;
-    @include font(500, 18px, 1.8, 0.02em);
+    @include font(500, 16px, 1.8, 0.02em);
     text-align: center;
     margin: auto;
     color: var(--fourth-text-color);
     transition: font 250ms;
     &:hover,
     &:focus {
-      @include font(500, 22px, 1.14, 0.02em);
+      @include font(500, 18px, 1.14, 0.02em);
     }
     @media screen and (min-width: 768px) {
-      @include font(500, 16px, 1.8, 0.02em);
       text-align: center;
       margin: auto;
       color: var(--fourth-text-color);
