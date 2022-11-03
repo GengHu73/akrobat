@@ -1,26 +1,25 @@
 :root {
-  --primary-font: "Roboto", sans-serif;
-  // --logo-font: "Rubik Mono One", sans-serif;
+--primary-font: "Roboto", sans-serif;
 
   
+--primary-color: #2196f3; 
+--second-color: #ffffff;
+--fourth-text-color: #212121;
+--header-background-color: #00bfff;
+--header-background-color-nav: #e2e2e2;
+--futer-color: #2f303a;
+--border-color: #000000;
+--mobil-color: rgba(0, 0, 0, 0.5);
+--futer-social-color: rgba(255, 255, 255, 0.1);
+--hero-background-color: rgba(47, 48, 58, 0.3);
+--slogan-color: #f13232;
+--table-color: #faf6f6;
+--th-background-color: #00a8e1;
+--tr-background-color: #e3e2e2;
+--team-color: #f0f7ff;
 
-  --primary-color: #2196f3; // first logo, hover (link, nav, ikon)
-  --second-color: #ffffff; // ikon btn, ikon
-  --third-color: #ececec; // bottom line in header
-  --team-color: #f0f7ff; // team
-  --fourth-color: rgba(255, 255, 255, 0.1); // background social ikon in futer
-  --futer-color: #2f303a; // futer
-  --label-color: rgb(47, 48, 58, 0.8);
-
-  --accent-btn: #188ce8;
-
-  --ikon-color: #afb1b8; // ikon clients, ikon social in team
-
-  --primary-text-color: #ffffff; // h1, btn, in futer, linc in futer, logo futer
-  --second-text-color: rgba(255, 255, 255, 0.6); // lincs in futer
-  --third-text-color: #757575; // link and ikon in header, text
-  --fourth-text-color: #212121; // nav, h2, h3, second logo header
-  --fifth-text-color: #000000; // second logo header
-
-  --background-hero: rgba(47, 48, 58, 0.3);
+--primary-text-color: #ffffff;
+--second-text-color: rgba(255, 255, 255, 0.6);
+--fifth-text-color: #000000;
+--third-text-color: #757575;
 }

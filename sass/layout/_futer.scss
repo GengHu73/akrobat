@@ -58,7 +58,7 @@
   &__social-item {
     fill: currentColor;
     a {
-      background: rgba(255, 255, 255, 0.1);
+      background: var(-futer-social-color);
       color: var(--primary-text-color);
     }
   }

@@ -1,5 +1,5 @@
 .timetable {
-  background-color: #faf6f6;
+  background-color: var(-table-color);
   &__container {
   }
 
@@ -32,8 +32,8 @@ table {
 }
 th {
   text-align: left;
-  color: #fff;
-  background-color: #00a8e1;
+  color: var(--second-color);
+  background-color: var(--th-background-color);
   height: 34px;
 }
 td {
@@ -48,5 +48,5 @@ td:last-child {
   width: 148px;
 }
 tr:nth-child(odd) {
-  background-color: #e3e2e2;
+  background-color: var(--tr-background-color);
 }

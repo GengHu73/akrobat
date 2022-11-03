@@ -2,19 +2,23 @@
   --primary-font: "Roboto", sans-serif;
   --primary-color: #2196f3;
   --second-color: #ffffff;
-  --third-color: #ececec;
-  --team-color: #f0f7ff;
-  --fourth-color: rgba(255, 255, 255, 0.1);
+  --fourth-text-color: #212121;
+  --header-background-color: #00bfff;
+  --header-background-color-nav: #e2e2e2;
   --futer-color: #2f303a;
-  --label-color: rgb(47, 48, 58, 0.8);
-  --accent-btn: #188ce8;
-  --ikon-color: #afb1b8;
+  --border-color: #000000;
+  --mobil-color: rgba(0, 0, 0, 0.5);
+  --futer-social-color: rgba(255, 255, 255, 0.1);
+  --hero-background-color: rgba(47, 48, 58, 0.3);
+  --slogan-color: #f13232;
+  --table-color: #faf6f6;
+  --th-background-color: #00a8e1;
+  --tr-background-color: #e3e2e2;
+  --team-color: #f0f7ff;
   --primary-text-color: #ffffff;
   --second-text-color: rgba(255, 255, 255, 0.6);
-  --third-text-color: #757575;
-  --fourth-text-color: #212121;
   --fifth-text-color: #000000;
-  --background-hero: rgba(47, 48, 58, 0.3);
+  --third-text-color: #757575;
 }
 
 .container {
@@ -237,9 +241,9 @@ h2 {
   align-items: center;
   width: 480px;
   margin: auto;
-  background-color: #00bfff;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  background-color: var(--header-background-color);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 @media screen and (min-width: 768px) {
   .header__container {
@@ -261,7 +265,7 @@ h2 {
 .header__logo-ikon {
   width: 100px;
   height: 100px;
-  background-color: #ffffff;
+  background-color: var(--second-color);
   background-image: url(../images/svg/logo-icon.svg);
   background-size: cover;
   border-radius: 50%;
@@ -283,9 +287,9 @@ h2 {
 .nav-list__item {
   width: 140px;
   height: 30px;
-  background-color: #e2e2e2;
+  background-color: var(--header-background-color-nav);
   border-radius: 4px;
-  border: 1px #000 solid;
+  border: 1px solid var(--border-color);
   transition: padding-top 250ms;
 }
 .nav-list__item:hover, .nav-list__item:focus {
@@ -293,9 +297,9 @@ h2 {
 }
 @media screen and (min-width: 768px) {
   .nav-list__item {
-    background-color: #e2e2e2;
+    background-color: var(--header-background-color-nav);
     border-radius: 4px;
-    border: 1px #000 solid;
+    border: 1px solid var(--border-color);
     transition: padding-top 250ms;
   }
   .nav-list__item:not(:last-child) {
@@ -309,9 +313,9 @@ h2 {
   .nav-list__item {
     width: 160px;
     height: 34px;
-    background-color: #e2e2e2;
+    background-color: var(--header-background-color-nav);
     border-radius: 4px;
-    border: 1px #000 solid;
+    border: 1px solid var(--border-color);
     transition: padding-top 250ms;
   }
   .nav-list__item:not(:last-child) {
@@ -431,7 +435,7 @@ h2 {
   padding-top: 100px;
   width: 100%;
   height: 796px;
-  background-color: rgba(0, 0, 0, 0.514);
+  background-color: var(--mobil-color);
   overflow: auto;
   opacity: 0;
   visibility: hidden;
@@ -447,7 +451,7 @@ h2 {
   padding-left: 24px;
   padding-top: 66px;
   border-radius: 2px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--second-color);
 }
 .mobile-menu__close-btn {
   position: absolute;
@@ -480,7 +484,7 @@ h2 {
   padding-bottom: 100px;
   background-image: url(../images/mobile/zal.jpg);
   background-size: cover;
-  background-color: #c4c4c4;
+  background-color: var(--hero-background-color);
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero__container {
@@ -517,7 +521,7 @@ h2 {
   margin: auto;
   height: 102px;
   width: 480px;
-  background-color: #ffffff;
+  background-color: var(--second-color);
 }
 @media screen and (min-width: 768px) {
   .hero__blank {
@@ -540,9 +544,9 @@ h2 {
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-  color: #f13232;
+  color: var(--slogan-color);
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-stroke-color: var(--second-color);
 }
 @media screen and (min-width: 768px) {
   .hero__slogan {
@@ -566,10 +570,10 @@ h2 {
   border-radius: 20px;
   margin: auto;
   width: 600px;
-  background-color: var(--background-hero);
-  color: #ffffff;
+  background-color: var(--hero-background-color);
+  color: var(--second-color);
   -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-color: var(--border-color);
   width: 400px;
 }
 @media screen and (min-width: 768px) {
@@ -584,7 +588,7 @@ h2 {
 }
 
 .aboutus {
-  background-color: #ffffff;
+  background-color: var(--second-color);
 }
 .aboutus__container {
   padding-left: 100px;
@@ -745,7 +749,7 @@ h2 {
 }
 
 .timetable {
-  background-color: #faf6f6;
+  background-color: var(-table-color);
 }
 .timetable__title {
   margin-bottom: 14px;
@@ -788,8 +792,8 @@ table {
 
 th {
   text-align: left;
-  color: #fff;
-  background-color: #00a8e1;
+  color: var(--second-color);
+  background-color: var(--th-background-color);
   height: 34px;
 }
 
@@ -806,7 +810,7 @@ td:last-child {
 }
 
 tr:nth-child(odd) {
-  background-color: #e3e2e2;
+  background-color: var(--tr-background-color);
 }
 
 .footer__container {
@@ -858,7 +862,7 @@ tr:nth-child(odd) {
   fill: currentColor;
 }
 .footer__social-item a {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(-futer-social-color);
   color: var(--primary-text-color);
 }
 .footer__blank {

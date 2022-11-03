@@ -39,13 +39,13 @@
       }
     }
     background-size: cover;
-    background-color: #c4c4c4;
+    background-color: var(--hero-background-color);
   }
   &__blank {
     margin: auto;
     height: 102px;
     width: 480px;
-    background-color: #ffffff;
+    background-color: var(--second-color);
     @media screen and (min-width: 768px) {
       width: 768px;
       height: 100px;
@@ -61,9 +61,9 @@
     @include font(900, 64px, 1.62, 0.06em);
     text-align: center;
     text-transform: uppercase;
-    color: #f13232;
+    color: var(--slogan-color);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-stroke-color: var(--second-color);
     @media screen and (min-width: 768px) {
       width: 696px;
       @include font(900, 80px, 1.36, 0.06em);
@@ -77,10 +77,10 @@
     border-radius: 20px;
     margin: auto;
     width: 600px;
-    background-color: var(--background-hero);
-    color: #ffffff;
+    background-color: var(--hero-background-color);
+    color: var(--second-color);
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-color: var(--border-color);
     width: 400px;
     @media screen and (min-width: 768px) {
       width: 546px;
