@@ -33,6 +33,7 @@
   text-align: center;
   color: var(--fourth-text-color);
   transition: font 250ms;
+  cursor: pointer;
   &:hover,
   &:focus {
     margin-top: -2px;

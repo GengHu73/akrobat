@@ -158,6 +158,7 @@ h2 {
   text-align: center;
   color: var(--fourth-text-color);
   transition: font 250ms;
+  cursor: pointer;
 }
 .menu-btn:hover, .menu-btn:focus {
   margin-top: -2px;
@@ -749,7 +750,7 @@ h2 {
 }
 
 .timetable {
-  background-color: var(-table-color);
+  background-color: var(--table-color);
 }
 .timetable__title {
   margin-bottom: 14px;
