@@ -587,6 +587,9 @@ h2 {
     width: 696px;
   }
 }
+.hero__video {
+  margin: auto;
+}
 
 .aboutus {
   background-color: var(--second-color);
