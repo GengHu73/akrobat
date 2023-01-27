@@ -93,18 +93,20 @@
   &__container {
     padding-top: 50px;
     padding-bottom: 118px;
+    height: 315px;
     width: 480px;
     margin: auto;
     background-position: 50% 50%;
-    background-image: url(../images/mobile/kubki.jpg);
+    background-image: url(../images/kubki.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../images/mobile/kubki@2x.jpg);
+      background-image: url(../images/kubki@2x.jpg);
     }
     @media screen and (min-width: 768px) {
       padding-top: 70px;
       padding-bottom: 100px;
+      height: 503px;
       width: 768px;
       background-image: url(../images/kubki.jpg);
 
@@ -117,6 +119,7 @@
     @media screen and (min-width: 1280px) {
       padding-top: 70px;
       padding-bottom: 100px;
+      height: 671px;
       width: 1024px;
       background-image: url(../images/kubki.jpg);
 
