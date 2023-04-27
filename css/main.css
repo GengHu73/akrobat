@@ -679,40 +679,28 @@ h2 {
   color: var(--primary-text-color);
 }
 
-.gallery-previews {
-  display: none;
+.gallery {
+  padding-bottom: 0px;
 }
 @media screen and (min-width: 1200px) {
-  .gallery-previews {
+  .gallery {
     display: block;
     padding-top: 0;
   }
 }
-.gallery-previews__list {
-  display: flex;
-  justify-content: space-between;
+.gallery__container {
+  background-color: var(--second-color);
+  padding-top: 15px;
 }
-.gallery-previews__item {
-  position: relative;
-}
-.gallery-previews__label {
+.gallery__videos {
   display: flex;
-  align-items: center;
   justify-content: center;
-  width: 370px;
-  height: 70px;
-  background-color: var(--label-color);
-  position: absolute;
-  bottom: 0;
 }
-.gallery-previews__label-text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--second-color);
+.gallery__previev {
+  width: 187px;
+}
+.gallery__title {
+  margin-bottom: 15px;
 }
 
 .trainer__section {
