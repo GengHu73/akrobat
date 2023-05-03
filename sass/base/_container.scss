@@ -8,10 +8,23 @@
   width: 480px;
   padding-top: 100px;
   padding-bottom: 60px;
-  @media screen and (min-width: 768px) {
-    width: 768px;
+  @media screen and (min-width: 769px) {
+    width: 769px;
   }
   @media screen and (min-width: 1280px) {
     width: 1024px;
+  }
+}
+
+.gallery {
+  &__section {
+    padding-top: 20px;
+    background-color: var(--second-color);
+  }
+  &__video{
+    @media screen and (max-width: 768px) {
+    width: 450px;
+    height: 262px;
+  }
   }
 }
