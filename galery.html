@@ -30,14 +30,11 @@
           </a>
           <ul class="nav-list">
             <li class="nav-list__item">
-              <a class="nav-list__link" href="index.html">главная</a>
-            </li>
-            <!-- <li class="nav-list__item">
-              <a class="nav-list__link" href="#trainer"></a>
+              <a class="nav-list__link" href="#gallery">соревнования</a>
             </li>
             <li class="nav-list__item">
-              <a class="nav-list__link" href="#timetable"></a>
-            </li> -->
+              <a class="nav-list__link" href="#team">доска почета</a>
+            </li>
 
             <li class="nav-list__item">
               <button type="button" class="menu-btn" data-menu-open>
@@ -77,12 +74,13 @@
         <!-- <div class="hero-gallery__blank container"></div> -->
         <div class="hero-gallery__container container"></div>
       </section>
-      <section class="gallery__section section">
+      <section id="gallery" class="gallery__section section">
         <div class="gallery__container container">
           <h2 class="gallery__title">Соревнование 24.12.2022 года</h2>
           <div class="gallery__videos">
             <div class="gallery__previev">
-              <iframe class="gallery__video"
+              <iframe
+                class="gallery__video"
                 width="187"
                 height="105"
                 src="https://www.youtube.com/embed/_EngUobsSWE"
@@ -91,7 +89,8 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <iframe class="gallery__video"
+              <iframe
+                class="gallery__video"
                 width="187"
                 height="105"
                 src="https://www.youtube.com/embed/AepZkf4bQ9Q"
@@ -100,7 +99,8 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <iframe class="gallery__video"
+              <iframe
+                class="gallery__video"
                 width="187"
                 height="105"
                 src="https://www.youtube.com/embed/hmtcXwXRtHI"
@@ -110,7 +110,8 @@
                 allowfullscreen
               ></iframe>
             </div>
-            <iframe class="gallery__video"
+            <iframe
+              class="gallery__video"
               width="560"
               height="326"
               src="https://youtube.com/embed/vF2RDDny9bY"
@@ -121,7 +122,8 @@
             >
             </iframe>
             <div class="gallery__previev">
-              <iframe class="gallery__video"
+              <iframe
+                class="gallery__video"
                 width="187"
                 height="105"
                 src="https://www.youtube.com/embed/bBxWG8rEYw4"
@@ -130,7 +132,8 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <iframe class="gallery__video" 
+              <iframe
+                class="gallery__video"
                 width="187"
                 height="105"
                 src="https://www.youtube.com/embed/n1jLFPZ4I6o"
@@ -139,7 +142,8 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <iframe class="gallery__video"
+              <iframe
+                class="gallery__video"
                 width="187"
                 height="105"
                 src="https://www.youtube.com/embed/qqi1vHGXLww"
@@ -150,6 +154,171 @@
               ></iframe>
             </div>
           </div>
+        </div>
+      </section>
+      <section id="team" class="team__section section">
+        <div class="team__container container">
+          <h2 class="team__title">Доска почета</h2>
+          <ul class="team__card-list">
+            <li class="team__card-item">
+              <picture class="image-title">
+                <source
+                  srcset="./images/1master.jpg 1x, ./images/1master@2x.jpg 2x"
+                />
+                <img
+                  class="team__image"
+                  src="./images/1master.jpg"
+                  alt="фото спортсмена"
+                  width="450"
+                  height="683"
+                />
+              </picture>
+            </li>
+            <li class="team__card-item">
+              <picture class="image-title">
+                <source
+                  srcset="./images/2master.jpg 1x, ./images/2master@2x.jpg 2x"
+                />
+                <img
+                  class="team__image"
+                  src="./images/2master.jpg"
+                  alt="фото спортсмена"
+                  width="450"
+                  height="683"
+                />
+              </picture>
+            </li>
+            <li class="team__card-item">
+              <picture class="image-title">
+                <source
+                  srcset="./images/3master.jpg 1x, ./images/3master@2x.jpg 2x"
+                />
+                <img
+                  class="team__image"
+                  src="./images/3master.jpg"
+                  alt="фото спортсмена"
+                  width="450"
+                  height="683"
+                />
+              </picture>
+            </li>
+            <li class="team__card-item">
+              <picture class="image-title">
+                <source
+                  srcset="./images/4master.jpg 1x, ./images/4master@2x.jpg 2x"
+                />
+                <img
+                  class="team__image"
+                  src="./images/4master.jpg"
+                  alt="фото спортсмена"
+                  width="450"
+                  height="683"
+                />
+              </picture>
+            </li>
+            <li class="team__card-item">
+              <picture class="image-title">
+                <source
+                  srcset="
+                    ./images/1kandidat.jpg    1x,
+                    ./images/1kandidat@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team__image"
+                  src="./images/1kandidat.jpg"
+                  alt="фото спортсмена"
+                  width="450"
+                  height="683"
+                />
+              </picture>
+            </li>
+            <li class="team__card-item">
+              <picture class="image-title">
+                <source
+                  srcset="
+                    ./images/2kandidat.jpg    1x,
+                    ./images/2kandidat@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team__image"
+                  src="./images/2kandidat.jpg"
+                  alt="фото спортсмена"
+                  width="450"
+                  height="683"
+                />
+              </picture>
+            </li>
+            <li class="team__card-item">
+              <picture class="image-title">
+                <source
+                  srcset="
+                    ./images/3kandidat.jpg    1x,
+                    ./images/3kandidat@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team__image"
+                  src="./images/3kandidat.jpg"
+                  alt="фото спортсмена"
+                  width="450"
+                  height="683"
+                />
+              </picture>
+            </li>
+            <li class="team__card-item">
+              <picture class="image-title">
+                <source
+                  srcset="
+                    ./images/4kandidat.jpg    1x,
+                    ./images/4kandidat@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team__image"
+                  src="./images/4kandidat.jpg"
+                  alt="фото спортсмена"
+                  width="450"
+                  height="683"
+                />
+              </picture>
+            </li>
+            <li class="team__card-item">
+              <picture class="image-title">
+                <source
+                  srcset="
+                    ./images/5kandidat.jpg    1x,
+                    ./images/5kandidat@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team__image"
+                  src="./images/5kandidat.jpg"
+                  alt="фото спортсмена"
+                  width="450"
+                  height="683"
+                />
+              </picture>
+            </li>
+            <li class="team__card-item">
+              <picture class="image-title">
+                <source
+                  srcset="
+                    ./images/6kandidat.jpg    1x,
+                    ./images/6kandidat@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team__image"
+                  src="./images/6kandidat.jpg"
+                  alt="фото спортсмена"
+                  width="450"
+                  height="683"
+                />
+              </picture>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
