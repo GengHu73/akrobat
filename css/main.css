@@ -43,16 +43,6 @@
   }
 }
 
-.gallery__section {
-  background-color: var(--second-color);
-}
-@media screen and (max-width: 768px) {
-  .gallery__video {
-    width: 450px;
-    height: 262px;
-  }
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -689,7 +679,7 @@ h2 {
   color: var(--primary-text-color);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .gallery {
     display: block;
   }
@@ -698,13 +688,49 @@ h2 {
   .gallery__videos {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .gallery__videos {
+    flex-wrap: nowrap;
   }
 }
 .gallery__previev {
-  width: 187px;
+  width: 242px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+@media screen and (max-width: 1279px) {
+  .gallery__previev {
+    width: 359px;
+  }
 }
 .gallery__title {
   margin-bottom: 15px;
+}
+.gallery__section {
+  background-color: var(--second-color);
+}
+@media screen and (max-width: 1279px) {
+  .gallery__video {
+    width: 363px;
+    height: 262px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gallery {
+    width: 450px;
+    height: 262px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .gallery__parad {
+    order: -1;
+    width: 732px;
+    height: 324px;
+    margin-left: 3px;
+  }
 }
 
 .trainer__section {

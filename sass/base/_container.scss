@@ -15,16 +15,3 @@
     width: 1024px;
   }
 }
-
-.gallery {
-  &__section {
-    // padding-top: 20px;
-    background-color: var(--second-color);
-  }
-  &__video{
-    @media screen and (max-width: 768px) {
-    width: 450px;
-    height: 262px;
-  }
-  }
-}
