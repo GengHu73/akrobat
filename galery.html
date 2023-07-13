@@ -30,12 +30,11 @@
           </a>
           <ul class="nav-list">
             <li class="nav-list__item">
-              <a class="nav-list__link" href="#gallery">соревнования</a>
-            </li>
-            <li class="nav-list__item">
               <a class="nav-list__link" href="#team">доска почета</a>
             </li>
-
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="#gallery">соревнования</a>
+            </li>
             <li class="nav-list__item">
               <button type="button" class="menu-btn" data-menu-open>
                 контакты
@@ -51,8 +50,13 @@
               <use href="./images/svg/sprite.svg#icon-close-menu"></use>
             </svg>
           </button>
-
-          <ul class="mobile-menu__contacts-list">
+          <img
+            src="./images/contakts.bmp"
+            alt="контакты"
+            width="450"
+            height="200"
+          />
+          <!-- <ul class="mobile-menu__contacts-list">
             <li class="contact-list__item">
               <a class="contaсt-list__link_phone" href="tel:+111111111111">
                 +111111111111</a
@@ -65,103 +69,13 @@
                 >akrobatik@server.com
               </a>
             </li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </header>
     <main>
       <section class="hero-gallery">
-        <!-- <div class="hero-gallery__blank container"></div> -->
         <div class="hero-gallery__container container"></div>
-      </section>
-      <section id="gallery" class="gallery__section section">
-        <div class="gallery__container container">
-          <h2 class="gallery__title">Соревнование 24.12.2022 года</h2>
-          <div class="gallery__videos">
-            <div class="gallery__previev">
-              <iframe
-                class="gallery__video"
-                width="242"
-                height="150"
-                src="https://rutube.ru/play/embed/c4b264a44924ef54e2888fba97b4cbe2/?p=EnLb3RB7y7Wb2mLAaB2GNw"
-                frameborder="0"
-                allow="clipboard-write; autoplay"
-                webkitAllowFullScreen
-                mozallowfullscreen
-                allowfullscreen
-              ></iframe>
-              <iframe
-                class="gallery__video"
-                width="242"
-                height="150"
-                src="https://rutube.ru/play/embed/394b1255117da4f52cbab2ce4ca5a938/?p=3WWuG0fq5quQZcFEL43z9g"
-                frameborder="0"
-                allow="clipboard-write; autoplay"
-                webkitAllowFullScreen
-                mozallowfullscreen
-                allowfullscreen
-              ></iframe>
-              <iframe
-                class="gallery__video"
-                width="242"
-                height="150"
-                src="https://rutube.ru/play/embed/61fd34ac6217af0091d22029a6c75558/?p=6CNdN6nOstXdIH8GTRKhlA"
-                frameborder="0"
-                allow="clipboard-write; autoplay"
-                webkitAllowFullScreen
-                mozallowfullscreen
-                allowfullscreen
-              ></iframe>
-            </div>
-            <iframe
-              class="gallery__video gallery__parad"
-              width="520"
-              height="324"
-              src="https://rutube.ru/play/embed/648ab62bc64fef2f21741689e210f836/?p=QQV03NZpQIQZwptLBRb2jA"
-              frameborder="0"
-              allow="clipboard-write; autoplay"
-              webkitAllowFullScreen
-              mozallowfullscreen
-              allowfullscreen
-            ></iframe>
-
-            <div class="gallery__previev">
-              <iframe
-                class="gallery__video"
-                width="242"
-                height="150"
-                src="https://rutube.ru/play/embed/cce2a6db011b96db6175ef700caa5f38/?p=V9FRroT6RYS9D5X2yyGoIw"
-                frameborder="0"
-                allow="clipboard-write; autoplay"
-                webkitAllowFullScreen
-                mozallowfullscreen
-                allowfullscreen
-              ></iframe>
-              <iframe
-                class="gallery__video"
-                width="242"
-                height="150"
-                src="https://rutube.ru/play/embed/c9844ace7c75da32accf7e66a771a965/?p=dwelKTwr-ZpZyD96IuxmMg"
-                frameborder="0"
-                allow="clipboard-write; autoplay"
-                webkitAllowFullScreen
-                mozallowfullscreen
-                allowfullscreen
-              ></iframe>
-              <iframe
-                class="gallery__video"
-                width="242"
-                height="150"
-                src="https://rutube.ru/play/embed/78ee3bf5a77b561f6dcfba3e354bc957/?p=lHso0A3177ZDi2T0GZac7w"
-                frameborder="0"
-                allow="clipboard-write; autoplay"
-                webkitAllowFullScreen
-                mozallowfullscreen
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-        </div>
       </section>
       <section id="team" class="team__section section">
         <div class="team__container container">
@@ -328,6 +242,157 @@
           </ul>
         </div>
       </section>
+      <section id="gallery" class="gallery__section section">
+        <div class="gallery__container container">
+          <h2 class="gallery__title">Соревнование 24.12.2022 года</h2>
+          <div class="gallery__videos">
+            <div class="gallery__video gallery__parad">
+              <iframe
+                width="500"
+                height="324"
+                src="https://rutube.ru/play/embed/648ab62bc64fef2f21741689e210f836/?p=QQV03NZpQIQZwptLBRb2jA"
+                frameborder="0"
+                allow="clipboard-write; autoplay"
+                webkitAllowFullScreen
+                mozallowfullscreen
+                allowfullscreen
+              ></iframe>
+              <ul>
+                <li class="lider-btn">
+                  <a href="#" class="js-open-modal lider-addr" data-modal="1"
+                    >Победители</a
+                  >
+                </li>
+                <li class="lider-btn">
+                  <a href="#" class="js-open-modal lider-addr" data-modal="2"
+                    >Выступления</a
+                  >
+                </li>
+              </ul>
+
+              <div class="modal" data-modal="1">
+                <button
+                  type="button"
+                  class="mobile-menu__close-btn js-modal-close"
+                  data-menu-close
+                >
+                  <svg class="mobile-menu__close-ikon" width="40" height="40">
+                    <use href="./images/svg/sprite.svg#icon-close-menu"></use>
+                  </svg>
+                </button>
+                <div class="team__container container">
+                  <h2 class="team__title">Победители</h2>
+                  <ul class="team__card-list">
+                    <li class="team__card-item">
+                        <img
+                          class="team__image"
+                          src="./images/1/DSC_0043.jpg"
+                          alt="фото победителей"
+                          width="450"
+                          height="683"
+                        />
+                    </li>
+                    <li class="team__card-item">
+                        <img
+                          class="team__image"
+                          src="./images/1/DSC_0045.jpg"
+                          alt="фото победителей"
+                          width="450"
+                          height="683"
+                        />
+                    </li>
+                    <li class="team__card-item">
+                      <img class="team__image" src="./images/1/DSC_0052.jpg" alt="фото победителей" width="450" height="683" />
+                    </li>
+                    <li class="team__card-item">
+                      <img class="team__image" src="./images/1/DSC_0058.jpg" alt="фото победителей" width="450" height="683" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="modal" data-modal="2">
+                <button
+                  type="button"
+                  class="mobile-menu__close-btn js-modal-close"
+                  data-menu-close
+                >
+                  <svg class="mobile-menu__close-ikon" width="40" height="40">
+                    <use href="./images/svg/sprite.svg#icon-close-menu"></use>
+                  </svg>
+                </button>
+                <p class="modal__title">Выступления</p>
+                <iframe
+                  class="gallery__video"
+                  width="242"
+                  height="150"
+                  src="https://rutube.ru/play/embed/c4b264a44924ef54e2888fba97b4cbe2/?p=EnLb3RB7y7Wb2mLAaB2GNw"
+                  frameborder="0"
+                  allow="clipboard-write; autoplay"
+                  webkitAllowFullScreen
+                  mozallowfullscreen
+                  allowfullscreen
+                ></iframe>
+                <iframe
+                  class="gallery__video"
+                  width="242"
+                  height="150"
+                  src="https://rutube.ru/play/embed/394b1255117da4f52cbab2ce4ca5a938/?p=3WWuG0fq5quQZcFEL43z9g"
+                  frameborder="0"
+                  allow="clipboard-write; autoplay"
+                  webkitAllowFullScreen
+                  mozallowfullscreen
+                  allowfullscreen
+                ></iframe>
+                <iframe
+                  class="gallery__video"
+                  width="242"
+                  height="150"
+                  src="https://rutube.ru/play/embed/61fd34ac6217af0091d22029a6c75558/?p=6CNdN6nOstXdIH8GTRKhlA"
+                  frameborder="0"
+                  allow="clipboard-write; autoplay"
+                  webkitAllowFullScreen
+                  mozallowfullscreen
+                  allowfullscreen
+                ></iframe>
+                <iframe
+                  class="gallery__video"
+                  width="242"
+                  height="150"
+                  src="https://rutube.ru/play/embed/cce2a6db011b96db6175ef700caa5f38/?p=V9FRroT6RYS9D5X2yyGoIw"
+                  frameborder="0"
+                  allow="clipboard-write; autoplay"
+                  webkitAllowFullScreen
+                  mozallowfullscreen
+                  allowfullscreen
+                ></iframe>
+                <iframe
+                  class="gallery__video"
+                  width="242"
+                  height="150"
+                  src="https://rutube.ru/play/embed/c9844ace7c75da32accf7e66a771a965/?p=dwelKTwr-ZpZyD96IuxmMg"
+                  frameborder="0"
+                  allow="clipboard-write; autoplay"
+                  webkitAllowFullScreen
+                  mozallowfullscreen
+                  allowfullscreen
+                ></iframe>
+                <iframe
+                  class="gallery__video"
+                  width="242"
+                  height="150"
+                  src="https://rutube.ru/play/embed/78ee3bf5a77b561f6dcfba3e354bc957/?p=lHso0A3177ZDi2T0GZac7w"
+                  frameborder="0"
+                  allow="clipboard-write; autoplay"
+                  webkitAllowFullScreen
+                  mozallowfullscreen
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="overlay js-overlay-modal" id="overlay-modal"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="footer__container container">
@@ -377,5 +442,6 @@
     </footer>
 
     <script src="./js/menu.js"></script>
+    <script src="./js/modals.js"></script>
   </body>
 </html>

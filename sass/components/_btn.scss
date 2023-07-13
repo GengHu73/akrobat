@@ -1,26 +1,3 @@
-.modal-btn {
-  border: none;
-  font-family: inherit;
-  @include font(700, 16px, 1.87, 0.06em);
-  text-align: center;
-  color: var(--primary-text-color);
-  cursor: pointer;
-  background-color: var(--primary-color);
-  border-radius: 4px;
-  display: block;
-  width: 200px;
-  height: 50px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    background-color: var(--accent-btn);
-  }
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1280px) {
-  }
-}
-
 .menu-btn {
   background-color: transparent;
   width: 100%;
@@ -46,12 +23,61 @@
       @include font(500, 18px, 1.14, 0.02em);
     }
   }
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1024px) {
     @include font(500, 18px, 1.14, 0.02em);
     &:hover,
     &:focus {
       margin-top: -2px;
       @include font(500, 20px, 1.14, 0.02em);
     }
+  }
+}
+
+.lider-addr {
+  background-color: transparent;
+  transition: padding-top 250ms;
+  @include font(500, 16px, 1.14, 0.02em);
+  text-align: center;
+  color: var(--fourth-text-color);
+  transition: font 250ms;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    margin-top: -2px;
+    @include font(500, 18px, 1.14, 0.02em);
+  }
+  @media screen and (min-width: 768px) {
+    &:hover,
+    &:focus {
+      margin-top: -2px;
+      @include font(500, 18px, 1.14, 0.02em);
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    @include font(500, 18px, 1.14, 0.02em);
+    &:hover,
+    &:focus {
+      margin-top: -2px;
+      @include font(500, 20px, 1.14, 0.02em);
+    }
+  }
+}
+.lider-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 60px;
+  background-color: var(--th-background-color);
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 10px;
+
+  @media screen and (min-width: 768px) {
+    transition: padding-top 250ms;
+  }
+
+  @media screen and (min-width: 1024px) {
+    border: 1px solid var(--border-color);
   }
 }
