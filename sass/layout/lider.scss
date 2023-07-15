@@ -1,0 +1,42 @@
+.lider {
+  &__section {
+    background-color: var(--team-color);
+  }
+  &__videos {
+    overflow-y: auto;
+    height: 100%;
+  }
+  &__card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -30px;
+    margin-top: -30px;
+    overflow: auto;
+  }
+
+  &__card-item {
+    margin-left: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 60px) / 2);
+    }
+
+    @media screen and (min-width: 1280px) {
+      flex-basis: calc((100% - 60px) / 2);
+    }
+  }
+
+  &__image {
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      height: 300px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      height: 300px;
+    }
+  }
+}

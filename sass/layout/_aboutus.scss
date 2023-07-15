@@ -2,8 +2,10 @@
   background-color: var(--second-color);
 
   &__container {
-    padding-left: 100px;
-    padding-right: 100px;
+    @media screen and (min-width: 768px) {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
   }
 
   &__txt {
