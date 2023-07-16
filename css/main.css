@@ -743,9 +743,8 @@ h2 {
 .modal {
   opacity: 0;
   visibility: hidden;
-  width: 100%;
+  width: 480px;
   height: 100%;
-  max-width: 1024px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -757,6 +756,17 @@ h2 {
   border-radius: 3px;
   background-color: #fff;
   transition: 0.3s all;
+}
+@media screen and (min-width: 769px) {
+  .modal {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .modal {
+    width: 1024px;
+    max-width: 1024px;
+  }
 }
 .modal__cross {
   width: 15px;
@@ -772,6 +782,7 @@ h2 {
 .overlay.active {
   opacity: 1;
   visibility: visible;
+  padding-bottom: 150px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -812,12 +823,28 @@ h2 {
 .gallery__section {
   background-color: var(--second-color);
 }
+.gallery__video {
+  width: 450px;
+  height: 254px;
+}
+@media screen and (min-width: 768px) {
+  .gallery__video {
+    width: 480px;
+    height: 272px;
+  }
+}
 .gallery__parad {
   width: 100%;
 }
 @media screen and (max-width: 768px) {
   .gallery__parad {
     height: 255px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .gallery__parad {
+    width: 480px;
+    height: 270px;
   }
 }
 
@@ -981,12 +1008,12 @@ h2 {
 }
 @media screen and (min-width: 1280px) {
   .lider__card-item {
-    flex-basis: calc((100% - 60px) / 2);
+    flex-basis: calc((100% - 124px) / 2);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .lider__image {
-    height: 300px;
+    height: 236px;
   }
 }
 @media screen and (min-width: 1280px) {

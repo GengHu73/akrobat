@@ -4,7 +4,7 @@
   }
 
   &__container {
-    height: 455px; 
+    height: 455px;
     @media screen and (min-width: 769px) {
       height: 535px;
     }
@@ -17,7 +17,6 @@
       width: 500px;
     }
     @media screen and (min-width: 1280px) {
-     
     }
   }
   &__previev {
@@ -36,19 +35,25 @@
   }
 
   &__video {
+    width: 450px;
+    height: 254px;
+    @media screen and (min-width: 768px) {
+      width: 480px;
+      height: 272px;
+    }
+
     @media screen and (max-width: 1279px) {
-      
     }
   }
 
-  @media screen and (max-width: 768px) {
-    // width: 450px;
-    // height: 262px;
-  }
   &__parad {
     width: 100%;
     @media screen and (max-width: 768px) {
       height: 255px;
+    }
+    @media screen and (min-width: 1280px) {
+      width: 480px;
+      height: 270px;
     }
   }
 }
