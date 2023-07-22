@@ -5,8 +5,10 @@
 
   &__container {
     height: 455px;
+    margin-bottom: 50px;
     @media screen and (min-width: 769px) {
       height: 535px;
+      margin-bottom: 0;
     }
   }
 
