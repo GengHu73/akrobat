@@ -60,10 +60,14 @@ body {
   margin: 0;
   font-family: var(--primary-font);
   box-sizing: border-box;
-  background-image: url(../images/fon.jpg);
-  background-size: cover;
   background-attachment: fixed;
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../images/fon.jpg);
+    background-size: cover;
+  }
 }
 
 h1,
