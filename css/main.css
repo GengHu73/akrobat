@@ -843,12 +843,6 @@ h2 {
     height: 255px;
   }
 }
-@media screen and (min-width: 1280px) {
-  .gallery__parad {
-    width: 480px;
-    height: 270px;
-  }
-}
 
 .trainer__section {
   background-color: var(--team-color);
