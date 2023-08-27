@@ -331,6 +331,7 @@ h2 {
     margin-bottom: -20px;
   }
 }
+
 .nav-list {
   display: flex;
   align-items: center;
@@ -770,7 +771,6 @@ h2 {
 }
 @media screen and (min-width: 1280px) {
   .modal {
-    width: 1024px;
     max-width: 1024px;
   }
 }
@@ -841,6 +841,11 @@ h2 {
 @media screen and (max-width: 768px) {
   .gallery__parad {
     height: 255px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gallery__perf {
+    width: 100%;
   }
 }
 

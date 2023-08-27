@@ -19,13 +19,6 @@
   &__navigation {
     display: flex;
     margin-bottom: 30px;
-    @media screen and (min-width: 768px) {
-    }
-    @media screen and (min-width: 1024px) {
-    }
-    @media screen and (max-width: 1023px) {
-      // margin-bottom: 60px;
-    }
     &::before {
       content: "";
       display: block;
@@ -45,8 +38,6 @@
   }
 
   &__social {
-    @media screen and (min-width: 768px) {
-    }
     @media screen and (min-width: 1024px) {
       margin-right: 93px;
     }
@@ -54,7 +45,6 @@
       width: 232px;
     }
   }
-
   &__social-item {
     fill: currentColor;
     a {
@@ -69,12 +59,10 @@
 }
 
 .address {
-  &__contacts-list {
-  }
-
+  // &__contacts-list {
+  // }
   &__contact-link {
     @include font(700, 14px, 1.14, 0.03em);
-
     color: var(--second-text-color);
   }
   &__map {

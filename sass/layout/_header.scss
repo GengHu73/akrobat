@@ -30,19 +30,11 @@
     }
   }
   &__navigation {
-    display: flex;
-    @media screen and (min-width: 768px) {
-    }
-    @media screen and (min-width: 1280px) {
-    }
+    display: flex; 
   }
   &__logo {
     display: flex;
     margin-right: 10px;
-    @media screen and (min-width: 768px) {
-    }
-    @media screen and (min-width: 1280px) {
-    }
   }
   &__logo-ikon {
     width: 100px;
@@ -56,8 +48,6 @@
     @media screen and (min-width: 768px) {
       margin-top: -21px;
       margin-bottom: -20px;
-    }
-    @media screen and (min-width: 1280px) {
     }
   }
 }
