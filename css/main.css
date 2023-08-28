@@ -587,7 +587,7 @@ h2 {
   }
 }
 .hero__slogan {
-  width: 360px;
+  width: auto;
   margin: auto;
   font-weight: 900;
   font-size: 64px;

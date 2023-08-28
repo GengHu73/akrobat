@@ -53,7 +53,7 @@
     }
   }
   &__slogan {
-    width: 360px;
+    width: auto;
     margin: auto;
     @include font(900, 64px, 1.62, 0.06em);
     text-align: center;
