@@ -4,7 +4,7 @@
     width: 480px;
     margin: auto;
     background-color: var(--futer-color);
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 769px) {
       width: 768px;
     }
     @media screen and (min-width: 1280px) {
@@ -55,6 +55,10 @@
   &__blank {
     height: 350px;
     background-color: transparent;
+    @media screen and (max-width: 768px) {
+        width: 480px;
+        margin: auto;
+      }
   }
 }
 

@@ -1089,7 +1089,7 @@ tr:nth-child(odd) {
   margin: auto;
   background-color: var(--futer-color);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .footer__container {
     width: 768px;
   }
@@ -1138,6 +1138,12 @@ tr:nth-child(odd) {
 .footer__blank {
   height: 350px;
   background-color: transparent;
+}
+@media screen and (max-width: 768px) {
+  .footer__blank {
+    width: 480px;
+    margin: auto;
+  }
 }
 
 .address__contact-link {
