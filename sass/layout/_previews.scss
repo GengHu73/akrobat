@@ -11,6 +11,13 @@
       margin-bottom: 0;
     }
   }
+  &__aboutus-container {
+    height: 570px;
+    @media screen and (min-width: 769px) {
+      height: 640px;
+      margin-bottom: 0;
+    }
+  }
 
   &__videos {
     margin: auto;

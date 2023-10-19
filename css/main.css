@@ -806,6 +806,15 @@ h2 {
     margin-bottom: 0;
   }
 }
+.gallery__aboutus-container {
+  height: 570px;
+}
+@media screen and (min-width: 769px) {
+  .gallery__aboutus-container {
+    height: 640px;
+    margin-bottom: 0;
+  }
+}
 .gallery__videos {
   margin: auto;
   height: 100%;
