@@ -27,7 +27,7 @@
     flex-basis: calc((100% - 124px) / 2);
   }
 }
-.lider__oser {
+.lider__card-item-wide {
   margin-top: 30px;
 }
 .lider__image {
