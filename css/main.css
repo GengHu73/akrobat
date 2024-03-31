@@ -1020,8 +1020,8 @@ h2 {
     flex-basis: calc((100% - 124px) / 2);
   }
 }
-.lider__oser {
-  margin-top: 30px;
+.lider__parad {
+  height: auto;
 }
 .lider__card-item-wide {
   margin-top: 30px;

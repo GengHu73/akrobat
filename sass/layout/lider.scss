@@ -27,17 +27,19 @@
       flex-basis: calc((100% - 124px) / 2);
     }
   }
-  // &__oser {
-  //   margin-top: 30px;
-  // }
+  &__parad {
+    height: auto;
+    @media screen and (max-width: 768px) {
+    }
+  }
 
   &__card-item-wide {
     margin-top: 30px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 769px) {
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1279px) {
     }
   }
 
