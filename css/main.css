@@ -774,14 +774,32 @@ h2 {
     max-width: 1024px;
   }
 }
-.modal__cross {
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  fill: #444;
-  cursor: pointer;
+
+.awards {
+  opacity: 0;
+  width: 480px;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+  box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 15px;
+  border-radius: 3px;
+  background-color: #fff;
+  transition: 0.3s all;
+}
+@media screen and (min-width: 769px) {
+  .awards {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .awards {
+    max-width: 1024px;
+  }
 }
 
 .modal.active,
@@ -1027,6 +1045,20 @@ h2 {
   margin-top: 30px;
 }
 .lider__image {
+  margin: auto;
+}
+
+.award__section {
+  background-color: var(--team-color);
+}
+.award__foto {
+  overflow-y: auto;
+  height: 100%;
+}
+.award__card-item {
+  margin-top: 30px;
+}
+.award__image {
   margin: auto;
 }
 

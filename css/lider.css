@@ -35,4 +35,18 @@
 }
 .lider__image {
   margin: auto;
+}
+
+.award__section {
+  background-color: var(--team-color);
+}
+.award__foto {
+  overflow-y: auto;
+  height: 100%;
+}
+.award__card-item {
+  margin-top: 30px;
+}
+.award__image {
+  margin: auto;
 }/*# sourceMappingURL=lider.css.map */

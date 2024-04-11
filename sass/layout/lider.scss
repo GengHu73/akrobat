@@ -47,3 +47,21 @@
     margin: auto;
   }
 }
+.award {
+  &__section {
+    background-color: var(--team-color);
+  }
+
+  &__foto {
+    overflow-y: auto;
+    height: 100%;
+  }
+
+   &__card-item {
+   margin-top: 30px;
+  }
+
+    &__image {
+    margin: auto;
+  }
+}
