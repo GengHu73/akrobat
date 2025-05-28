@@ -20,7 +20,7 @@
     display: flex;
     margin-bottom: 30px;
     &::before {
-      content: "";
+      content: '';
       display: block;
       width: 16px;
       height: 16px;
@@ -56,15 +56,13 @@
     height: 350px;
     background-color: transparent;
     @media screen and (max-width: 768px) {
-        width: 480px;
-        margin: auto;
-      }
+      width: 480px;
+      margin: auto;
+    }
   }
 }
 
 .address {
-  // &__contacts-list {
-  // }
   &__contact-link {
     @include font(700, 14px, 1.14, 0.03em);
     color: var(--second-text-color);

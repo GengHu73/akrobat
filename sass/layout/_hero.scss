@@ -7,9 +7,7 @@
     margin: auto;
     background-position: 50% 50%;
     background-image: url(../images/mobile/zal1.jpg);
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../images/mobile/zal1@2x.jpg);
     }
     @media screen and (min-width: 768px) {
@@ -18,9 +16,7 @@
       width: 768px;
       background-image: url(../images/zal.jpg);
 
-      @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/zal@2x.jpg);
       }
     }
@@ -30,9 +26,7 @@
       width: 1024px;
       background-image: url(../images/zal.jpg);
 
-      @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/zal@2x.jpg);
       }
     }
@@ -59,8 +53,8 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--slogan-color);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--second-color);
+    // -webkit-text-stroke-width: 1px;
+    // -webkit-text-stroke-color: var(--second-color);
     @media screen and (min-width: 768px) {
       width: 696px;
       @include font(900, 80px, 1.36, 0.06em);
@@ -76,8 +70,6 @@
     width: 600px;
     background-color: var(--hero-background-color);
     color: var(--second-color);
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: var(--border-color);
     width: 400px;
     @media screen and (min-width: 768px) {
       width: 546px;
@@ -87,7 +79,7 @@
     }
   }
 }
-.hero-gallery{
+.hero-gallery {
   margin: auto;
   &__container {
     padding-top: 50px;
@@ -97,9 +89,7 @@
     margin: auto;
     background-position: 50% 50%;
     background-image: url(../images/mobile/kubki.jpg);
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../images/mobile/kubki@2x.jpg);
     }
     @media screen and (min-width: 768px) {
@@ -109,9 +99,7 @@
       width: 768px;
       background-image: url(../images/kubki.jpg);
 
-      @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/kubki@2x.jpg);
       }
     }
@@ -122,9 +110,7 @@
       width: 1024px;
       background-image: url(../images/kubki.jpg);
 
-      @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/kubki@2x.jpg);
       }
     }

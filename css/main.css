@@ -596,8 +596,6 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   color: var(--slogan-color);
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--second-color);
 }
 @media screen and (min-width: 768px) {
   .hero__slogan {
@@ -623,8 +621,6 @@ h2 {
   width: 600px;
   background-color: var(--hero-background-color);
   color: var(--second-color);
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: var(--border-color);
   width: 400px;
 }
 @media screen and (min-width: 768px) {
