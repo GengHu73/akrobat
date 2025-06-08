@@ -811,21 +811,24 @@ h2 {
   }
 }
 .gallery__container {
-  height: 455px;
+  display: inline-block;
+  width: 480px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 @media screen and (min-width: 769px) {
   .gallery__container {
-    height: 600px;
+    width: 770px;
     margin-bottom: 0;
   }
 }
-.gallery__aboutus-container {
-  height: 570px;
+@media screen and (min-width: 1279px) {
+  .gallery__container {
+    width: 1024px;
+  }
 }
 @media screen and (min-width: 769px) {
   .gallery__aboutus-container {
-    height: 640px;
     margin-bottom: 0;
   }
 }
