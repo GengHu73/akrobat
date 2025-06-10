@@ -35,8 +35,8 @@
 
 .lider-addr {
   display: block;
-   width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 60px;
   background-color: transparent;
   transition: padding-top 250ms;
   @include font(500, 16px, 3.14, 0.02em);
@@ -57,7 +57,6 @@
     }
   }
   @media screen and (min-width: 1280px) {
-   
     @include font(500, 18px, 3.14, 0.02em);
     &:hover,
     &:focus {
